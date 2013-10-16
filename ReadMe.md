@@ -6,3 +6,4 @@ Only html and scss :)
 
 * Translate to english
 * Maybe add some other language
+* Add open graph stuff

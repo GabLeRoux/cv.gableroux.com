@@ -1,0 +1,50 @@
+body {
+  backgorund-color: white;
+  border: none; }
+
+.special {
+  display: none; }
+
+#cv {
+  opacity: initial;
+  border: none;
+  box-shadiw: none;
+  width: 100%;
+  float: none;
+  margin: 0; }
+  #cv:hover {
+    border: none; }
+
+.first-cv-section {
+  padding: 30px;
+  page-break-inside: avoid; }
+
+.cv-section {
+  padding: 30px;
+  page-break-inside: avoid;
+  margin: 0; }
+
+.person h1 {
+  margin-bottom: 10px; }
+
+.person h2 {
+  letter-spacing: 0; }
+
+#contact-info {
+  margin-top: 30px; }
+
+.cv-section-name {
+  float: none;
+  margin-bottom: 30px;
+  page-break-inside: avoid; }
+
+h2.cv-section-name {
+  font-style: normal; }
+
+.cv-section-items {
+  float: none;
+  width: 90%;
+  margin-left: 10%; }
+
+#social {
+  display: none; }

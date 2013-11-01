@@ -294,7 +294,7 @@ em {
 .no-svg .fc-webicon.skype {
   background: url("../img/fairhead-icons/fc-webicon-skype-m.png"); }
 
-.no-svg .fc-webicon.skype.lasrge {
+.no-svg .fc-webicon.skype.large {
   background: url("../img/fairhead-icons/fc-webicon-skype.png"); }
 
 .no-svg .fc-webicon.skype.small {
@@ -408,18 +408,18 @@ em {
   background: url("../img/fairhead-icons/fc-webicon-stackoverflow-m.png"); }
 
 body {
-  background-color: #fe9f3b;
-  background-image: -webkit-gradient(radial, center center, 0, center center, 460, color-stop(0%, #fe9f3b), color-stop(100%, #f03d2d));
-  background-image: -webkit-radial-gradient(50% 50%, circle, #fe9f3b, #f03d2d);
-  background-image: radial-gradient(circle at 50% 50%, #fe9f3b, #f03d2d);
-  background-color: #222222;
+  background: url("../img/blueprint_wallpaper_by_gableroux.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: black;
   font: 12px Arial, Helvetica, sans-serif;
   line-height: 22px; }
 
 .special {
-  background-color: #fe9f3b;
-  color: #333;
+  background-color: #444444;
+  color: white;
   font-size: 11px;
   padding: 5px;
   -webkit-transition: all ease-in-out 1s;
@@ -430,6 +430,8 @@ body {
   text-align: center;
   margin-top: 10px;
   display: block; }
+  .special:hover {
+    background-color: black; }
 
 a {
   color: #06A;
@@ -459,8 +461,8 @@ a {
   opacity: 0.9;
   width: 960px;
   background-color: #FFF;
-  border-bottom: 20px solid #A31E1E;
-  border-top: 15px solid #A31E1E;
+  border-bottom: 20px solid #444444;
+  border-top: 15px solid #444444;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -470,15 +472,15 @@ a {
   -ms-transition: border-color ease-in-out 1s;
   -o-transition: border-color ease-in-out 1s;
   transition: border-color ease-in-out 1s;
-  -webkit-box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.3);
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px; }
   #cv:hover {
-    border-bottom: 20px solid #000;
-    border-top: 15px solid #000; }
+    border-bottom: 20px solid black;
+    border-top: 15px solid black; }
 
 .cv-section {
   border-bottom: 1px solid #dfdfdf;

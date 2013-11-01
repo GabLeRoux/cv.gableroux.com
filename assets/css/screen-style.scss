@@ -1,6 +1,8 @@
 $titleColor: #333;
 $testColor: #000;
 $background: #222;
+$stripes: #444;
+$stripeHover: #000;
 
 $experianceBG: #ccc;
 $experianceBGHover: #333;
@@ -13,11 +15,11 @@ $firstSection: #eeeeee;
 @import "fc-icons";
 
 body {
-  background-color: #fe9f3b;
-  background-image: -webkit-gradient(radial, center center, 0, center center, 460, color-stop(0%, #fe9f3b), color-stop(100%, #f03d2d));
-  background-image: -webkit-radial-gradient(50% 50%, circle, #fe9f3b, #f03d2d);
-  background-image: radial-gradient( circle at 50% 50%, #fe9f3b, #f03d2d);
-  background-color: $background;
+  background: url("../img/blueprint_wallpaper_by_gableroux.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:    cover;
+  -o-background-size:      cover;
+  background-size:         cover;
   color: $testColor;
   font: 12px Arial, Helvetica, sans-serif;
   line-height: 22px;
@@ -25,27 +27,31 @@ body {
 
 .special
 {
-  background-color: #fe9f3b;
-  color: #333;
+  background-color:$stripes;
+  color: white;
   font-size: 11px;
   padding: 5px;
   -webkit-transition: all ease-in-out 1s;
-  -moz-transition: all ease-in-out 1s;
-  -ms-transition: all ease-in-out 1s;
-  -o-transition: all ease-in-out 1s;
-  transition: all ease-in-out 1s;
+  -moz-transition:    all ease-in-out 1s;
+  -ms-transition:     all ease-in-out 1s;
+  -o-transition:      all ease-in-out 1s;
+  transition:         all ease-in-out 1s;
   text-align: center;
   margin-top: 10px;
   display: block;
+
+  &:hover {
+    background-color: $stripeHover;
+  }
 }
 
 a {
   color: #06A;
   -webkit-transition: all ease-in-out 0.5s;
-  -moz-transition: all ease-in-out 0.5s;
-  -ms-transition: all ease-in-out 0.5s;
-  -o-transition: all ease-in-out 0.5s;
-  transition: all ease-in-out 0.5s;
+  -moz-transition:    all ease-in-out 0.5s;
+  -ms-transition:     all ease-in-out 0.5s;
+  -o-transition:      all ease-in-out 0.5s;
+  transition:         all ease-in-out 0.5s;
   &:hover
   {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
@@ -73,27 +79,27 @@ a {
   opacity: 0.9;
   width: 960px;
   background-color: #FFF;
-  border-bottom: 20px solid #A31E1E;
-  border-top: 15px solid #A31E1E;
+  border-bottom: 20px solid $stripes;
+  border-top: 15px solid$stripes;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   -webkit-transition: border-color ease-in-out 1s;
-  -moz-transition: border-color ease-in-out 1s;
-  -ms-transition: border-color ease-in-out 1s;
-  -o-transition: border-color ease-in-out 1s;
-  transition: border-color ease-in-out 1s;
-  -webkit-box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.3);
+  -moz-transition:    border-color ease-in-out 1s;
+  -ms-transition:     border-color ease-in-out 1s;
+  -o-transition:      border-color ease-in-out 1s;
+  transition:         border-color ease-in-out 1s;
+  -webkit-box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow:    0 0 30px 1px rgba(255, 255, 255, 0.3);
+  box-shadow:         0 0 30px 1px rgba(255, 255, 255, 0.3);
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
 
   &:hover {
-    border-bottom: 20px solid #000;
-    border-top: 15px solid #000;
+    border-bottom: 20px solid $stripeHover;
+    border-top: 15px solid $stripeHover;
   }
 }
 
@@ -187,10 +193,10 @@ ul#social-media {
     margin-left: 2em;
     padding: 2px 10px;
     -webkit-transition: background-color ease-in-out 1s, color ease-in-out 1s;
-    -moz-transition: background-color ease-in-out 1s, color ease-in-out 1s;
-    -ms-transition: background-color ease-in-out 1s, color ease-in-out 1s;
-    -o-transition: background-color ease-in-out 1s, color ease-in-out 1s;
-    transition: background-color ease-in-out 1s, color ease-in-out 1s;
+    -moz-transition:    background-color ease-in-out 1s, color ease-in-out 1s;
+    -ms-transition:     background-color ease-in-out 1s, color ease-in-out 1s;
+    -o-transition:      background-color ease-in-out 1s, color ease-in-out 1s;
+    transition:         background-color ease-in-out 1s, color ease-in-out 1s;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;

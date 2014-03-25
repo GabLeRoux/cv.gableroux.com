@@ -4,38 +4,33 @@ $background: #222;
 $stripes: #444;
 $stripeHover: #000;
 
-$experianceBG: #ccc;
-$experianceBGHover: #333;
-$experianceText: #333;
-$experianceTextHover: #ccc;
+$exp_BG: #ccc;
+$exp_BGHover: #333;
+$exp_Text: #333;
+$exp_TextHover: #ccc;
 
 $firstSection: #eeeeee;
 
 @import "reset";
 @import "fc-icons";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  background: url("../img/blueprint_wallpaper_by_gableroux.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size:    cover;
-  -o-background-size:      cover;
-  background-size:         cover;
+  background: black url("../img/black_lozenge.png") repeat center center fixed;
   color: $testColor;
-  font: 12px Arial, Helvetica, sans-serif;
-  line-height: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
 
-.special
-{
-  background-color:$stripes;
+.special {
+  background-color: $stripes;
   color: white;
-  font-size: 11px;
   padding: 5px;
   -webkit-transition: all ease-in-out 1s;
-  -moz-transition:    all ease-in-out 1s;
-  -ms-transition:     all ease-in-out 1s;
-  -o-transition:      all ease-in-out 1s;
-  transition:         all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+  transition: all ease-in-out 1s;
   text-align: center;
   margin-top: 10px;
   display: block;
@@ -45,15 +40,17 @@ body {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+}
+
 a {
   color: #06A;
   -webkit-transition: all ease-in-out 0.5s;
-  -moz-transition:    all ease-in-out 0.5s;
-  -ms-transition:     all ease-in-out 0.5s;
-  -o-transition:      all ease-in-out 0.5s;
-  transition:         all ease-in-out 0.5s;
-  &:hover
-  {
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  &:hover {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
 }
@@ -80,19 +77,16 @@ a {
   width: 960px;
   background-color: #FFF;
   border-bottom: 20px solid $stripes;
-  border-top: 15px solid$stripes;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  border-top: 15px solid $stripes;
+  margin: 50px auto;
   -webkit-transition: border-color ease-in-out 1s;
-  -moz-transition:    border-color ease-in-out 1s;
-  -ms-transition:     border-color ease-in-out 1s;
-  -o-transition:      border-color ease-in-out 1s;
-  transition:         border-color ease-in-out 1s;
-  -webkit-box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow:    0 0 30px 1px rgba(255, 255, 255, 0.3);
-  box-shadow:         0 0 30px 1px rgba(255, 255, 255, 0.3);
+  -moz-transition: border-color ease-in-out 1s;
+  -ms-transition: border-color ease-in-out 1s;
+  -o-transition: border-color ease-in-out 1s;
+  transition: border-color ease-in-out 1s;
+  -webkit-box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.5);
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -121,7 +115,6 @@ a {
 
   img {
     float: left;
-    margin-right: 25px;
     background-color: #FFF;
     border: 1px solid #dedede;
     padding: 5px;
@@ -134,20 +127,20 @@ a {
     float: right;
     text-align: right;
     display: block;
-    margin-top: 36px;
+    margin-bottom: 18px;
+    margin-top: 18px;
   }
 
   h1 {
     color: $titleColor;
-    font-size: 46px;
+    font-size: 3em;
     font-weight: 300;
     line-height: 1em;
   }
 
   h2 {
     color: $titleColor;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 2em;
     font-weight: 400;
     letter-spacing: -.7px;
     text-transform: uppercase;
@@ -157,6 +150,7 @@ a {
 #contact-info {
   float: right;
   margin-right: 10px;
+  text-align: right;
 }
 
 ul#social-media {
@@ -189,14 +183,13 @@ ul#social-media {
     float: right;
     background-color: #eee;
     color: #333;
-    font-size: 10px;
     margin-left: 2em;
     padding: 2px 10px;
     -webkit-transition: background-color ease-in-out 1s, color ease-in-out 1s;
-    -moz-transition:    background-color ease-in-out 1s, color ease-in-out 1s;
-    -ms-transition:     background-color ease-in-out 1s, color ease-in-out 1s;
-    -o-transition:      background-color ease-in-out 1s, color ease-in-out 1s;
-    transition:         background-color ease-in-out 1s, color ease-in-out 1s;
+    -moz-transition: background-color ease-in-out 1s, color ease-in-out 1s;
+    -ms-transition: background-color ease-in-out 1s, color ease-in-out 1s;
+    -o-transition: background-color ease-in-out 1s, color ease-in-out 1s;
+    transition: background-color ease-in-out 1s, color ease-in-out 1s;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -211,7 +204,7 @@ ul#social-media {
     float: left;
     color: #06A;
     font-family: 'Oxygen', sans-serif;
-    font-size: 22px;
+    font-size: 1.5em;
     font-weight: 400;
     letter-spacing: -1px;
 
@@ -224,7 +217,7 @@ ul#social-media {
   h3 {
     color: #262625;
     font-family: 'Oxygen', sans-serif;
-    font-size: 15px;
+    font-size: 1.4em;
     font-style: italic;
     font-weight: 400;
   }
@@ -266,7 +259,7 @@ h2.cv-section-name {
 
 @media screen and (max-width: 960px) {
   #cv {
-    width:95%;
+    width: 95%;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -314,13 +307,11 @@ h2.cv-section-name {
     margin-bottom: 40px;
   }
 
-  .person h1, .person h2
-  {
+  .person h1, .person h2 {
     text-align: center;
   }
 
-  #contact-info
-  {
+  #contact-info {
     float: none;
     margin: 10px 0;
     text-align: center;
@@ -353,7 +344,6 @@ h2.cv-section-name {
   }
 }
 
-.clear
-{
+.clear {
   clear: both;
 }

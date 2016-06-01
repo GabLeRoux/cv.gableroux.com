@@ -32,7 +32,7 @@
       "company": "Totema Studio",
       "position": "Directeur du dévelopment et Programmeur en Chef",
       "website": "https://totemastudio.com",
-      "startDate": "2014-11",
+      "startDate": "2014-11-01",
       "endDate": "",
       "summary": "Programmation de jeux vidéo, formation et dévelopment interne pour démarage d'entreprise",
       "highlights": []
@@ -121,9 +121,8 @@
       "summary": ""
     },
     {
-      "title": "Nomination Personnalité de l'année UQAC 2014",
+      "title": "UQAC - Nomination personnalité de l'année UQAC 2014",
       "date": "2014-04",
-      "awarder": "UQAC",
       "summary": ""
     },
     {
@@ -188,6 +187,10 @@
     {
       "language": "Anglais",
       "fluency": "Parlé et écrit impécable"
+    },
+    {
+     "language": "Python",
+     "fluency": "Coded like a ninja"
     }
   ],
   "interests": [

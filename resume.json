@@ -1,0 +1,215 @@
+{
+  "basics": {
+    "name": "Gabriel Le Breton",
+    "label": "GabLeRoux et Programeur analyste",
+    "picture": "https://secure.gravatar.com/avatar/6d49e7c487938aac490de390f46a2d98?size=400",
+    "email": "lebreton.gabriel@gmail.com",
+    "phone": "(418) 490 0246",
+    "website": "https://gableroux.com",
+    "summary": "Je suis un programmeur qui aime créer des applications et des jeux exceptionnels ainsi que travailler sur des projets open source. J'adore apprendre de nouveaux langages de programation, frameworks et librairies. À mon réveil, je lis quelques nouvelles sur Hacker News et BAM, prêt pour le travail. TLRD: J'aime ma femme et les chats",
+    "location": {
+      "address": "924 Bégin, App 7",
+      "postalCode": "G7H 4P2",
+      "city": "Chicoutimi",
+      "countryCode": "Canada",
+      "region": "Québec"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "gableroux",
+        "url": "https://twitter.com/gableroux"
+      },
+      {
+        "network": "Facebook",
+        "username": "gableroux",
+        "url": "https://facebook.com/gableroux"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Totema Studio",
+      "position": "Directeur du dévelopment et Programmeur en Chef",
+      "website": "https://totemastudio.com",
+      "startDate": "2014-11",
+      "endDate": "",
+      "summary": "Programmation de jeux vidéo, formation et dévelopment interne pour démarage d'entreprise",
+      "highlights": []
+    },
+    {
+      "company": "Solutions TLM",
+      "position": "Programmeur analyste",
+      "website": "http://solutionstlm.com",
+      "startDate": "2014-08",
+      "endDate": "",
+      "summary": "Projets variés, programmation mobile, déploiements et provisionnement sur plusieurs serveurs, etc.",
+      "highlights": []
+    },
+    {
+      "company": "Centre de Développement des Technologies de l'UQAC",
+      "position": "Développeur web",
+      "website": "http://www.uqac.ca/ceeuqac/index/chicoutimi/cdt_uqac",
+      "startDate": "2014-02",
+      "endDate": "2015-08",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "CEE UQAC",
+      "position": "Représentant Étudiant au CA",
+      "website": "http://www.uqac.ca/ceeuqac/index/index",
+      "startDate": "2013-09",
+      "endDate": "2015-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Laboratoire d'Informatique Formelle",
+      "position": "Assistant de recherche",
+      "website": "http://lif.uqac.ca/",
+      "startDate": "2012-04",
+      "endDate": "2014-08",
+      "summary": "Dévelopent et recherche sur des apps AJAX",
+      "highlights": [
+        "Conférences internationales"
+      ]
+    },
+    {
+      "company": "Réseau International d'Affaires de l'UQAC",
+      "position": "Dévelopeur Web",
+      "website": "",
+      "startDate": "2012-05",
+      "endDate": "2012-09",
+      "summary": "Dévelopment PHP avec le framework CodeIgniter",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Café Jeunesse",
+      "position": "Programmeur pour projet d'application mobile",
+      "website": "",
+      "startDate": "2015-01",
+      "endDate": "2015-04",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université du Québec à Chicoutimi",
+      "area": "Informatique",
+      "studyType": "Baccalauréat",
+      "startDate": "2010-09",
+      "endDate": "2014-05",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "CS Games 1ère postion au CSEC CSTC Corporate Challenge",
+      "date": "2014",
+      "awarder": "",
+      "summary": "Programmation d'un algorithme performant sur Raspberry Pi"
+    },
+    {
+      "title": "CS Games - 4e postion au classement général",
+      "date": "2014",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Nomination Personnalité de l'année UQAC 2014",
+      "date": "2014-04",
+      "awarder": "UQAC",
+      "summary": ""
+    },
+    {
+      "title": "Coveo Blitz 2014 - 1st position",
+      "date": "2014-01",
+      "awarder": "",
+      "summary": "The team: Gabriel Le Breton, Francis Renaud, Mathieu Briand Beaulieu and Jean-Daniel Pearson"
+    },
+    {
+      "title": "Coveo Blitz 2013 - 2nd place",
+      "date": "2013-01",
+      "awarder": "",
+      "summary": "The team: Gabriel Le Breton, Francis Renaud, Mathieu Briand Beaulieu and Jean-Daniel Pearson"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Automated Exploration and Analysis of Ajax Web Applications with WebMole",
+      "publisher": "WWW2013",
+      "releaseDate": "2013",
+      "website": "http://www2013.wwwconference.org/companion/p245.pdf",
+      "summary": "Authors: Gabriel Le Breton, G. Demarty, Fabien MARONNAUD, Sylvain Hallé"
+    },
+    {
+      "name": "Sitehopper: Abstracting navigation state machines for the efficient verification of web applications.",
+      "publisher": "In M. H. ter Beek and N. Lohmann, editors, WS-FM, volume 7843 of Lecture Notes in Computer Science, pages 103–117. Springer, 2012.",
+      "releaseDate": "2012",
+      "website": "http://lif.uqac.ca/fr/publications",
+      "summary": "Authors: Gabriel Le Breton, G. Demarty, Fabien MARONNAUD, Sylvain Hallé"
+    },
+    {
+      "name": "SA Reference Framework for the Automated Exploration of Web Applications",
+      "publisher": "ICECCS",
+      "releaseDate": "2014",
+      "website": "",
+      "summary": "Authors: Gabriel Le Breton, Nicolas Bergeron, Sylvain Hallé"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programmation",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "django",
+        "C#",
+        "C++",
+        "Coffeescript",
+        "Javascript",
+        "MySQL",
+        "git",
+        "SCSS",
+        "etc."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue native"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Parlé et écrit impécable"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Informatique",
+      "keywords": [
+        "Problèmes",
+        "Solutions",
+        "Alrogithmes"
+      ]
+    },
+    {
+      "name": "Conception de jeux vidéo",
+      "keywords": [
+        "Licornes"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": "Voir employeurs, fournis sur demande"
+    }
+  ]
+}

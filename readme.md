@@ -25,6 +25,16 @@ Better to open and save as pdf :(
 
 ## publish
 
+### gh-pages
+
+```bash
+gulp deploy
+```
+
+:rocket:
+
+### Older way
+
 ```bash
 resume publish --theme kendall
 ```

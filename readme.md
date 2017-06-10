@@ -5,22 +5,32 @@ See https://github.com/jsonresume/registry-server/issues/77
 
 ## Getting started
 
-    npm install -g resume-cli
+```bash
+npm install -g resume-cli
+```
 
 ## export
-    
-    resume export public/index.html --theme kendall
+
+```bash
+resume export public/index.html --theme kendall
+```
 
 pdf (but see https://github.com/jsonresume/resume-cli/issues/201)
 
-    resume export resume.pdf --theme kendall
+```bash
+resume export resume.pdf --theme kendall
+```
 
 Better to open and save as pdf :(
 
 ## publish
 
-    resume publish --theme kendall
+```bash
+resume publish --theme kendall
+```
 
-## themes
+## [themes](https://jsonresume.org/themes/)
 
-https://jsonresume.org/themes/
+## License
+
+[MIT](LICENSE.md) © [Gabriel Le Breton](https://gableroux.com)

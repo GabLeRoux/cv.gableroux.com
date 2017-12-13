@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume of Gabriel Le Breton</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style type="text/css">
-    @import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 @charset "utf-8";
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
@@ -304,6 +304,19 @@ a[href]:after {
 .box {
   margin-bottom: -10px;
 }
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests,
+.job-details,
+.job {
+  page-break-inside: avoid;
+}
+
 .col-sm-5{
   width: 40%;
   padding: 0 15px;
@@ -378,7 +391,7 @@ a[href]:after {
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="https:&#x2F;&#x2F;secure.gravatar.com&#x2F;avatar&#x2F;6d49e7c487938aac490de390f46a2d98?size=400" alt="avatar">
+              <img src="https:&#x2F;&#x2F;secure.gravatar.com&#x2F;avatar&#x2F;6d49e7c487938aac490de390f46a2d98?size&#x3D;400" alt="avatar">
             </div>
             <div id="text-header" >
               <h1>Gabriel Le Breton<br><span>GabLeRoux et Programeur analyste</span></h1>
@@ -410,7 +423,7 @@ a[href]:after {
                   <div class="job-details col-xs-11">
                     <div class="profession">Directeur du dévelopment et Programmeur en Chef</div>
                     <div class="description">
-                      Programmation de jeux vidéo, formation et dévelopment interne pour démarage d'entreprise
+                      Programmation de jeux vidéo, démarage d'entreprise, formation et développement
                     </div>
                   </div>
                 </div>
@@ -429,7 +442,7 @@ a[href]:after {
                   <div class="job-details col-xs-11">
                     <div class="profession">Programmeur analyste</div>
                     <div class="description">
-                      Projets variés, programmation mobile, déploiements et provisionnement sur plusieurs serveurs, etc.
+                      Projets variés, programmation mobile, déploiements et provisionnement, infrastructure, gestion de serveurs, Tests, TDD, Intégration Continue et analyses
                     </div>
                   </div>
                 </div>
@@ -486,7 +499,7 @@ a[href]:after {
                   <div class="job-details col-xs-11">
                     <div class="profession">Assistant de recherche</div>
                     <div class="description">
-                      Dévelopent et recherche sur des apps AJAX
+                      Recherche et développement sur des applications web AJAX, navigation automatique et présentations à des conférences internationales
                       <div class="highlights">Highlights</div>
                       <ul class="list-group">
                         <li class="list-group-item">Conférences internationales</li>
@@ -535,8 +548,8 @@ a[href]:after {
               <li>
                 <div class="year pull-left">April  2014</div>
                 <div class="description pull-right">
-                  <h3>UQAC</h3>
-                  <p><i class="fa fa-trophy ico"></i> Nomination Personnalité de l&#39;année UQAC 2014</p>
+                  <h3></h3>
+                  <p><i class="fa fa-trophy ico"></i> UQAC - Nomination personnalité de l&#39;année UQAC 2014</p>
                   <p></p>
                 </div>
               </li>
@@ -564,7 +577,7 @@ a[href]:after {
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
-                    <div class="where">Café Jeunesse</div>
+                    <div class="where">Centre d&#39;action Bénévole de Chicoutimi</div>
                     <div class="year">January 2015 – April 2015</div>
                   </div>
                 </div>
@@ -573,6 +586,25 @@ a[href]:after {
                     <div class="profession">Programmeur pour projet d&#39;application mobile</div>
                     <div class="description">
                       
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Café Jeunesse</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;www.cabchicoutimi.com&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.cabchicoutimi.com&#x2F;</a>
+                    </div>
+                    <div class="year">January 2017 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">Bénévol ponctuel</div>
+                    <div class="description">
+                      Soutient et bénévolat pour le programme Entre voisins
                     </div>
                   </div>
                 </div>
@@ -594,19 +626,19 @@ a[href]:after {
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="/cdn-cgi/l/email-protection#264a4344544352494808414744544f434a66414b474f4a0845494b" target="_blank"><span class="__cf_email__" data-cfemail="5d31383f2f38293233733a3c3f2f3438311d3a303c3431733e3230">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></div>
+              <div class="title only pull-right"><a href="mailto:lebreton.gabriel@gmail.com" target="_blank">lebreton.gabriel@gmail.com</a></div>
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
               <div class="title only pull-right"><a href="https:&#x2F;&#x2F;gableroux.com" target="_blank">https:&#x2F;&#x2F;gableroux.com</a></div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-twitter-square fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
               <div class="title pull-right">Twitter</div>
               <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;gableroux" target="_blank">gableroux</a></div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-facebook-square fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fa fa-facebook fa-fw"></span></div>
               <div class="title pull-right">Facebook</div>
               <div class="description pull-right"><a href="https:&#x2F;&#x2F;facebook.com&#x2F;gableroux" target="_blank">gableroux</a></div>
             </div>
@@ -639,10 +671,12 @@ a[href]:after {
                 <span class= "skill badge">C#</span>
                 <span class= "skill badge">C++</span>
                 <span class= "skill badge">Coffeescript</span>
+                <span class= "skill badge">Docker</span>
                 <span class= "skill badge">Javascript</span>
                 <span class= "skill badge">MySQL</span>
                 <span class= "skill badge">git</span>
                 <span class= "skill badge">SCSS</span>
+                <span class= "skill badge">Unity3D</span>
                 <span class= "skill badge">etc.</span>
               </div>
             </div>
@@ -721,10 +755,6 @@ a[href]:after {
         </div>
       </div>
     </div>
-    <!-- JQUERY -->
-    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- BOOTSTRAP -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+  </body>
 </html>

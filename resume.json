@@ -34,7 +34,7 @@
       "website": "https://totemastudio.com",
       "startDate": "2014-11-01",
       "endDate": "",
-      "summary": "Programmation de jeux vidéo, formation et dévelopment interne pour démarage d'entreprise",
+      "summary": "Programmation de jeux vidéo, démarage d'entreprise, formation et développement",
       "highlights": []
     },
     {
@@ -43,7 +43,7 @@
       "website": "http://solutionstlm.com",
       "startDate": "2014-08",
       "endDate": "",
-      "summary": "Projets variés, programmation mobile, déploiements et provisionnement sur plusieurs serveurs, etc.",
+      "summary": "Projets variés, programmation mobile, déploiements et provisionnement, infrastructure, gestion de serveurs, Tests, TDD, Intégration Continue et analyses",
       "highlights": []
     },
     {
@@ -70,7 +70,7 @@
       "website": "http://lif.uqac.ca/",
       "startDate": "2012-04",
       "endDate": "2014-08",
-      "summary": "Dévelopent et recherche sur des apps AJAX",
+      "summary": "Recherche et développement sur des applications web AJAX, navigation automatique et présentations à des conférences internationales",
       "highlights": [
         "Conférences internationales"
       ]
@@ -87,12 +87,21 @@
   ],
   "volunteer": [
     {
-      "organization": "Café Jeunesse",
+      "organization": "Centre d'action Bénévole de Chicoutimi",
       "position": "Programmeur pour projet d'application mobile",
       "website": "",
       "startDate": "2015-01",
       "endDate": "2015-04",
       "summary": "",
+      "highlights": []
+    }
+    {
+      "organization": "Café Jeunesse",
+      "position": "Bénévol ponctuel",
+      "website": "http://www.cabchicoutimi.com/",
+      "startDate": "2017-01",
+      "endDate": "",
+      "summary": "Soutient et bénévolat pour le programme Entre voisins",
       "highlights": []
     }
   ],
@@ -171,10 +180,12 @@
         "C#",
         "C++",
         "Coffeescript",
+        "Docker",
         "Javascript",
         "MySQL",
         "git",
         "SCSS",
+        "Unity3D",
         "etc."
       ]
     }

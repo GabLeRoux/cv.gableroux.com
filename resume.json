@@ -4,7 +4,7 @@
     "email": "lebreton.gabriel@gmail.com",
     "phone": "(418) 490 0246",
     "website": "https://gableroux.com",
-    "summary": "Je suis un programmeur qui aime créer des applications et des jeux exceptionnels ainsi que travailler sur des projets open source. J'adore apprendre de nouveaux langages de programmation, frameworks et librairies. À mon réveil, je lis quelques nouvelles sur lobste.rs et BAM, prêt pour le travail. TLDR: J'aime ma femme, les chats et les chiens",
+    "summary": "Je suis un programmeur qui aime créer des applications et des jeux exceptionnels ainsi que travailler sur des projets open source. J'adore apprendre de nouveaux langages de programmation, frameworks et librairies. À mon réveil, je lis quelques nouvelles sur lobste.rs et BAM, prêt pour le travail.",
     "location": {
       "address": "2424 Labrecque",
       "postalCode": "G7S 1K8",
@@ -181,6 +181,9 @@
         "C++",
         "Coffeescript",
         "Docker",
+        "AWS",
+        "Terraform",
+        "Flutter",
         "Javascript",
         "MySQL",
         "git",
@@ -210,7 +213,8 @@
       "keywords": [
         "Problèmes",
         "Solutions",
-        "Alrogithmes"
+        "Alrogithmes",
+        "Plaisir"
       ]
     },
     {

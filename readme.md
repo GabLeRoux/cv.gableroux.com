@@ -6,38 +6,32 @@ See https://github.com/jsonresume/registry-server/issues/77
 ## Getting started
 
 ```bash
-npm install -g resume-cli
+npm i
 ```
 
 ## export
 
 ```bash
-resume export public/index.html --theme kendall
+npm run export
 ```
 
 pdf (but see https://github.com/jsonresume/resume-cli/issues/201)
 
 ```bash
-resume export resume.pdf --theme kendall
+npm run pdf
 ```
 
-Better to open and save as pdf :(
+**Better to open and save as pdf :(**
 
 ## publish
 
 ### gh-pages
 
 ```bash
-gulp deploy
+npm run deploy
 ```
 
 :rocket:
-
-### Older way
-
-```bash
-resume publish --theme kendall
-```
 
 ## [themes](https://jsonresume.org/themes/)
 

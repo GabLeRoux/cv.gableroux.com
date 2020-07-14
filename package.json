@@ -4,7 +4,11 @@
   "description": "GabLeRoux's resume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resume": "resume",
+    "deploy": "gulp deploy",
+    "pdf": "resume export public/index.html --theme kendall",
+    "export": "resume export public/index.html --theme kendall"
   },
   "repository": {
     "type": "git",
@@ -16,6 +20,8 @@
   "dependencies": {
     "coffee-script": "^1.12.6",
     "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4"
+    "gulp-gh-pages": "^0.5.4",
+    "jsonresume-theme-kendall": "^0.1.19",
+    "resume-cli": "^1.2.7"
   }
 }

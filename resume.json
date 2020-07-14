@@ -39,7 +39,7 @@
       "company": "Solutions TLM",
       "position": "Programmeur analyste",
       "website": "http://solutionstlm.com",
-      "startDate": "2014-08",
+      "startDate": "2014-08-01",
       "endDate": "",
       "summary": "Projets variés, programmation mobile, déploiements et provisionnement, infrastructure, gestion de serveurs, Tests, TDD, Intégration Continue et analyses",
       "highlights": []
@@ -48,8 +48,8 @@
       "company": "Centre de Développement des Technologies de l'UQAC",
       "position": "Développeur web",
       "website": "http://www.uqac.ca/ceeuqac/index/chicoutimi/cdt_uqac",
-      "startDate": "2014-02",
-      "endDate": "2015-08",
+      "startDate": "2014-02-01",
+      "endDate": "2015-08-01",
       "summary": "",
       "highlights": []
     },
@@ -58,7 +58,7 @@
       "position": "Représentant Étudiant au CA",
       "website": "http://www.uqac.ca/ceeuqac/index/index",
       "startDate": "2013-09",
-      "endDate": "2015-01",
+      "endDate": "2015-01-01",
       "summary": "",
       "highlights": []
     },
@@ -66,8 +66,8 @@
       "company": "Laboratoire d'Informatique Formelle",
       "position": "Assistant de recherche",
       "website": "http://lif.uqac.ca/",
-      "startDate": "2012-04",
-      "endDate": "2014-08",
+      "startDate": "2012-04-01",
+      "endDate": "2014-08-01",
       "summary": "Recherche et développement sur des applications web AJAX, navigation automatique et présentations à des conférences internationales",
       "highlights": [
         "Conférences internationales"
@@ -77,8 +77,8 @@
       "company": "Réseau International d'Affaires de l'UQAC",
       "position": "Dévelopeur Web",
       "website": "",
-      "startDate": "2012-05",
-      "endDate": "2012-09",
+      "startDate": "2012-05-01",
+      "endDate": "2012-09-01",
       "summary": "Dévelopment PHP avec le framework CodeIgniter",
       "highlights": []
     }
@@ -88,8 +88,8 @@
       "organization": "Café Jeunesse",
       "position": "Programmeur pour projet d'application mobile",
       "website": "",
-      "startDate": "2015-01",
-      "endDate": "2015-04",
+      "startDate": "2015-01-01",
+      "endDate": "2015-04-01",
       "summary": "",
       "highlights": []
     },
@@ -97,7 +97,7 @@
       "organization": "Centre d'action Bénévole de Chicoutimi",
       "position": "Bénévol ponctuel",
       "website": "http://www.cabchicoutimi.com/",
-      "startDate": "2017-01",
+      "startDate": "2017-01-01",
       "endDate": "",
       "summary": "Soutient et bénévolat pour le programme Entre voisins",
       "highlights": []
@@ -108,8 +108,8 @@
       "institution": "Université du Québec à Chicoutimi",
       "area": "Informatique",
       "studyType": "Baccalauréat",
-      "startDate": "2010-09",
-      "endDate": "2014-05",
+      "startDate": "2010-09-01",
+      "endDate": "2014-05-01",
       "gpa": "",
       "courses": []
     }
@@ -117,32 +117,32 @@
   "awards": [
     {
       "title": "Hackathon de la Culture 2017 - 1ère position avec Improbible",
-      "date": "2017",
+      "date": "2017-09-01",
       "awarder": "",
       "website": "https://www.facebook.com/events/120183715305392/",
       "summary": "Marathon de trois jours ou l'on a développé une application ReactJS pour améliorer l'improvisation: Improbible"
     },
     {
       "title": "CS Games - 1ère postion au CSEC CSTC Corporate Challenge",
-      "date": "2014",
+      "date": "2014-03-01",
       "awarder": "",
       "summary": "Programmation d'un algorithme performant sur Raspberry Pi"
     },
     {
       "title": "CS Games - 4e postion au classement général",
-      "date": "2014",
+      "date": "2014-03-01",
       "awarder": "",
       "summary": "Compétition universitaire en informatique qui inclue des défis de tous les aspects de l'informatique."
     },
     {
       "title": "Coveo Blitz 2014 - 1st position",
-      "date": "2014-01",
+      "date": "2014-01-01",
       "awarder": "",
       "summary": "L'équipe: Gabriel Le Breton, Francis Renaud, Mathieu Briand Beaulieu and Jean-Daniel Pearson"
     },
     {
       "title": "Coveo Blitz 2013 - 2nd place",
-      "date": "2013-01",
+      "date": "2013-01-01",
       "awarder": "",
       "summary": "L'équipe: Gabriel Le Breton, Francis Renaud, Mathieu Briand Beaulieu and Jean-Daniel Pearson"
     }

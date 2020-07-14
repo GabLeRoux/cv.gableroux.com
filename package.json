@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "resume": "resume",
     "deploy": "gulp deploy",
-    "pdf": "resume export public/index.html --theme kendall",
-    "export": "resume export public/index.html --theme kendall"
+    "pdf": "resume export public/index.html --theme git@gitlab.com:GabLeRoux/jsonresume-theme-kendall.git#french",
+    "export": "resume export public/index.html --theme git@gitlab.com:GabLeRoux/jsonresume-theme-kendall.git#french"
   },
   "repository": {
     "type": "git",

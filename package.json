@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "resume": "resume",
+    "server": "node src/server.js",
     "deploy": "gulp deploy",
-    "pdf": "resume export public/index.html --theme git@gitlab.com:GabLeRoux/jsonresume-theme-kendall.git#french",
-    "export": "resume export public/index.html --theme git@gitlab.com:GabLeRoux/jsonresume-theme-kendall.git#french"
+    "export": "resume export public/index.html --theme jsonresume-theme-kendall",
+    "export-local": "resume export public/index.html --theme jsonresume-theme-kendall-local",
+    "pdf": "'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --run-all-compositor-stages-before-draw --no-margins -print-to-pdf-no-header --virtual-time-budget=10000 --print-to-pdf='./resume.pdf' http://localhost:8080"
   },
   "repository": {
     "type": "git",
@@ -19,9 +21,14 @@
   "homepage": "https://cv.gableroux.com/",
   "dependencies": {
     "coffee-script": "^1.12.6",
+    "express": "^4.17.1",
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
-    "jsonresume-theme-kendall": "^0.1.19",
-    "resume-cli": "^1.2.7"
+    "jsonresume-theme-kendall": "git+ssh://github.com:GabLeRoux/jsonresume-theme-kendall.git#french",
+    "jsonresume-theme-kendall-local": "file:../jsonresume-theme-kendall",
+    "resume-cli": "^1.2.8"
+  },
+  "devDependencies": {
+    "js-fire": "^0.7.4"
   }
 }

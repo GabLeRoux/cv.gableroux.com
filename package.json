@@ -22,13 +22,12 @@
   "dependencies": {
     "coffee-script": "^1.12.6",
     "express": "^4.17.1",
-    "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4",
     "jsonresume-theme-kendall": "git+ssh://github.com:GabLeRoux/jsonresume-theme-kendall.git#french",
     "jsonresume-theme-kendall-local": "file:../jsonresume-theme-kendall",
     "resume-cli": "^1.2.8"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "js-fire": "^0.7.4"
   }
 }

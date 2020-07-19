@@ -22,7 +22,7 @@
   "dependencies": {
     "coffee-script": "^1.12.6",
     "express": "^4.17.1",
-    "jsonresume-theme-kendall": "git+ssh://github.com:GabLeRoux/jsonresume-theme-kendall.git#french",
+    "jsonresume-theme-kendall": "GabLeRoux/jsonresume-theme-kendall#french",
     "jsonresume-theme-kendall-local": "file:../jsonresume-theme-kendall",
     "resume-cli": "^1.2.8"
   },

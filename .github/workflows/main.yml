@@ -7,12 +7,14 @@ on:
 
 jobs:
   build:
-    # Job name is Greeting
-    name: Greeting
-    # This job runs on Linux
+    name: export pdf resume
     runs-on: macos-10.15
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: CI
+      - name: Build
         run: npm i && npm run export && ( npm run server >/dev/null 2>&1 & disown ) && sleep 3 && npm run pdf
+      - uses: actions/upload-artifact@v2
+        with:
+          name: resume.pdf
+          path: public/resume.pdf

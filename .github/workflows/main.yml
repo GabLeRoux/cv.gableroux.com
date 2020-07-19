@@ -13,4 +13,4 @@ jobs:
     runs-on: macos-10.15
     steps:
       - name: CI
-        run: bash -c "npm i && npm run export && npm run server &; sleep 3; npm run pdf"
+        run: npm i && npm run export && ( npm run server >/dev/null 2>&1 & disown ) && sleep 3 && npm run pdf

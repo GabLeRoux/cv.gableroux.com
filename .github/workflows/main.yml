@@ -12,5 +12,7 @@ jobs:
     # This job runs on Linux
     runs-on: macos-10.15
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: CI
         run: npm i && npm run export && ( npm run server >/dev/null 2>&1 & disown ) && sleep 3 && npm run pdf

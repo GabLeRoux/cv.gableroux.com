@@ -1,0 +1,16 @@
+name: export pdf
+# This workflow is triggered on pushes to the repository.
+on: 
+  push:
+    branches-ignore:
+      - gh-pages
+
+jobs:
+  build:
+    # Job name is Greeting
+    name: Greeting
+    # This job runs on Linux
+    runs-on: macos-10.15
+    steps:
+      - name: CI
+        run: npm i && npm run export && npm run server &; sleep 3; npm run pdf

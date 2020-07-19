@@ -1,39 +1,18 @@
-# GabLeRoux resume
+# [GabLeRoux's resume](https://cv.gableroux.com/)
 
-Note to myself, password in vault is wrong :'(
-See https://github.com/jsonresume/registry-server/issues/77
+This is my curriculum-vitae, made with [`jsonresume/resume-cli`](https://github.com/jsonresume/resume-cli) and a [customized theme to support french language](github.com:GabLeRoux/jsonresume-theme-kendall.git)
 
 ## Getting started
 
 ```bash
 npm i
-```
-
-## export
-
-```bash
 npm run export
-```
-
-pdf (but see https://github.com/jsonresume/resume-cli/issues/201)
-
-```bash
 npm run pdf
-```
-
-**Better to open and save as pdf :(**
-
-## publish
-
-### gh-pages
-
-```bash
+npm run server
 npm run deploy
 ```
 
 :rocket:
-
-## [themes](https://jsonresume.org/themes/)
 
 ## License
 

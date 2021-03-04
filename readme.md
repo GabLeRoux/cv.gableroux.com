@@ -8,7 +8,7 @@ This is my curriculum-vitae, made with [`jsonresume/resume-cli`](https://github.
 npm i
 npm run export
 npm run pdf
-npm run server
+npm run start
 npm run deploy
 ```
 

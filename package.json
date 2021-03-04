@@ -9,7 +9,7 @@
     "export": "resume export public/index.html --theme jsonresume-theme-kendall",
     "export-local": "resume export public/index.html --theme jsonresume-theme-kendall-local",
     "server": "node src/server.js",
-    "pdf": "'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --run-all-compositor-stages-before-draw --no-margins -print-to-pdf-no-header --virtual-time-budget=10000 --print-to-pdf='./public/resume.pdf' http://localhost:8080",
+    "pdf": "'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --run-all-compositor-stages-before-draw --no-margins -print-to-pdf-no-header --virtual-time-budget=10000 --print-to-pdf='./public/resume.pdf' http://localhost:8080",
     "deploy": "gh-pages -d public"
   },
   "repository": {

@@ -8,11 +8,26 @@
     "location": {
       "address": "2424 Labrecque",
       "postalCode": "G7S 1K8",
-      "city": "Saguenay",
+      "city": "Jonquière",
       "countryCode": "Canada",
       "region": "Québec"
     },
     "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gableroux",
+        "url": "https://www.linkedin.com/in/gableroux/"
+      },
+      {
+        "network": "Github",
+        "username": "gableroux",
+        "url": "https://github.com/gableroux/"
+      },
+      {
+        "network": "Gitlab",
+        "username": "gableroux",
+        "url": "https://gitlab.com/gableroux/"
+      },
       {
         "network": "Twitter",
         "username": "gableroux",
@@ -27,6 +42,15 @@
   },
   "work": [
     {
+      "company": "Université du Québec à Chicoutimi (UQAC)",
+      "position": "Chargé de cours",
+      "website": "https://uqac.ca",
+      "startDate": "2020-08-01",
+      "endDate": "",
+      "summary": "Enseignement du cours '8PRO135 - Programmation avec des moteurs de jeu' pour plus de 40 étudiants",
+      "highlights": []
+    },
+    {
       "company": "Totema Studio",
       "position": "Directeur du dévelopment et Programmeur en Chef",
       "website": "https://totemastudio.com",
@@ -38,7 +62,7 @@
     {
       "company": "Solutions TLM",
       "position": "Programmeur analyste",
-      "website": "http://solutionstlm.com",
+      "website": "https://solutionstlm.com",
       "startDate": "2014-08-01",
       "endDate": "",
       "summary": "Projets variés, programmation mobile, déploiements et provisionnement, infrastructure, gestion de serveurs, Tests, TDD, Intégration Continue et analyses",
@@ -47,7 +71,6 @@
     {
       "company": "Centre de Développement des Technologies de l'UQAC",
       "position": "Développeur web",
-      "website": "http://www.uqac.ca/ceeuqac/index/chicoutimi/cdt_uqac",
       "startDate": "2014-02-01",
       "endDate": "2015-08-01",
       "summary": "",
@@ -56,16 +79,16 @@
     {
       "company": "CEE UQAC",
       "position": "Représentant Étudiant au CA",
-      "website": "http://www.uqac.ca/ceeuqac/index/index",
+      "website": "https://www.uqac.ca/ceeuqac/",
       "startDate": "2013-09",
       "endDate": "2015-01-01",
       "summary": "",
       "highlights": []
     },
     {
-      "company": "Laboratoire d'Informatique Formelle",
+      "company": "Laboratoire d'Informatique Formelle de l'UQAC",
       "position": "Assistant de recherche",
-      "website": "http://lif.uqac.ca/",
+      "website": "https://liflab.ca/",
       "startDate": "2012-04-01",
       "endDate": "2014-08-01",
       "summary": "Recherche et développement sur des applications web AJAX, navigation automatique et présentations à des conférences internationales",
@@ -85,6 +108,15 @@
   ],
   "volunteer": [
     {
+      "organization": "Open Source - GameCI",
+      "position": "Contributeur",
+      "website": "https://game.ci/",
+      "startDate": "2018-01-01",
+      "endDate": "",
+      "summary": "Maintenance d'une image docker téléchargée plus de 600 000 fois, support à l'intégration de l'outil pour des centaines d'utilisateurs",
+      "highlights": []
+    },
+    {
       "organization": "Café Jeunesse",
       "position": "Programmeur pour projet d'application mobile",
       "website": "",
@@ -98,7 +130,7 @@
       "position": "Bénévol ponctuel",
       "website": "http://www.cabchicoutimi.com/",
       "startDate": "2017-01-01",
-      "endDate": "",
+      "endDate": "2018-01-01",
       "summary": "Soutient et bénévolat pour le programme Entre voisins",
       "highlights": []
     }
@@ -152,14 +184,14 @@
       "name": "Automated Exploration and Analysis of Ajax Web Applications with WebMole",
       "publisher": "WWW2013",
       "releaseDate": "2013",
-      "website": "http://www2013.wwwconference.org/companion/p245.pdf",
+      "website": "https://www2013.wwwconference.org/companion/p245.pdf",
       "summary": "Authors: Gabriel Le Breton, G. Demarty, Fabien MARONNAUD, Sylvain Hallé"
     },
     {
       "name": "Sitehopper: Abstracting navigation state machines for the efficient verification of web applications.",
       "publisher": "In M. H. ter Beek and N. Lohmann, editors, WS-FM, volume 7843 of Lecture Notes in Computer Science, pages 103–117. Springer, 2012.",
       "releaseDate": "2012",
-      "website": "http://lif.uqac.ca/fr/publications",
+      "website": "https://lif.uqac.ca/fr/publications",
       "summary": "Authors: Gabriel Le Breton, G. Demarty, Fabien MARONNAUD, Sylvain Hallé"
     },
     {
@@ -215,6 +247,12 @@
         "Solutions",
         "Alrogithmes",
         "Plaisir"
+      ]
+    },
+    {
+      "name": "Enseignement",
+      "keywords": [
+        "partage de conaissances"
       ]
     },
     {
